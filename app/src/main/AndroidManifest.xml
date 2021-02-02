@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.memorygame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MemoryGame">
+        <activity android:name=".Game2" />
+        <activity android:name=".Game4" />
+        <activity android:name=".Game6" />
+        <activity android:name=".Game8" />
+        <activity android:name=".Game10" />
+        <activity android:name=".Game12" />
+        <activity android:name=".Game14" />
+        <activity android:name=".Game16" />
+        <activity android:name=".Game18" />
+        <activity android:name=".Game20" />
+        <activity android:name=".Settings" />
+        <activity android:name=".End" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
