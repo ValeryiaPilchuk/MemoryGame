@@ -34,6 +34,5 @@ public class End extends AppCompatActivity {
         Intent intentStart = new Intent(this, MainActivity.class);
 
         btnsrt.setOnClickListener(v -> startActivity(intentStart));
-
     }
 }
